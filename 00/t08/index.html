@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="t08">
+		<link rel="stylesheet" href="style.css">
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>Superhero Form</h1>
+		<div class="content">
+			<form action="#" method="post" enctype="multipart/form-data">
+				<div class="about">
+					<div class="hi">About the Superhero</div>
+					<span>Real Name <input autofocus placeholder="Superhero real name" type="text" name="real_name" value=""></span>
+					<span>Superhero Name <input placeholder="Sulerhero alias" type="text" name="superhero_name" value=""></span>
+					<span>Age <input type="number" min="1" max="999" step="1" name="age" value=""></span>
+					<br> <br>
+					<span>About <textarea rows="5" cols="70" maxlength="500" placeholder="Information about superhero, max 500 symbols" name="text"></textarea></span>
+					<br> <br>
+					<span>Photo <input type="file" name="photo" value=""></span>
+				</div>
+				<div class="powers">
+					<div class="hi_2">Powers</div>
+					<span><input type="checkbox" name="telekinesis" value="yes"> Telekinesis</span>
+					<span><input type="checkbox" name="str_spd" value="yes"> Super strength or speed</span>
+					<span><input type="checkbox" name="shapeshift" value="yes"> Shapeshifting</span>
+					<span><input type="checkbox" name="flight" value="yes"> Flight</span>
+					<span><input type="checkbox" name="control" value="yes"> Elemental control</span>
+					<span><input type="checkbox" name="other" value="yes"> Other</span>
+					<br>
+					<span>Level of control <input min="0" max="10" step="1" type="range" name="level" value="1"></span>
+				</div>
+				<div class="origin">
+					<div class="hi_3">Origin of Powers</div>
+					<span><input type="radio" name="pwrs" value="unk"> Unknown</span>
+					<span><input type="radio" name="pwrs" value="fla"> Freak lab accident</span>
+					<span><input type="radio" name="pwrs" value="cba"> Chosen by an anciant wise being</span>
+					<span><input type="radio" name="pwrs" value="nthm"> The superhero is not human</span>
+					<span><input type="radio" name="pwrs" value="otr"> Other</span>
+				</div>
+				<div class="butons">
+					<span class="clear">
+						<button type="reset">CLEAR</button>
+					</span>
+					<span class="submit">
+						<button type="submit">SEND</button>
+					</span>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

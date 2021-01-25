@@ -1,0 +1,46 @@
+.content{
+	border: 2px solid grey;
+	padding: 20px;
+	min-width: 800px;
+}
+.about{
+	border: 2px solid grey;
+	border-radius: 30px;
+	padding: 20px;
+	margin: 0 0 20px 0;
+}
+.powers{
+	border: 2px solid grey;
+	border-radius: 30px;
+	padding: 20px;
+	margin: 0 0 20px 0;
+}
+.origin{
+	border: 2px solid grey;
+	border-radius: 30px;
+	padding: 20px;
+	margin: 0 0 20px 0;
+}
+.butons:hover{
+	display: inline-block;
+	transition: 5s;
+	transform: rotate(1turn);
+}
+.hi{
+	background-color: #fff;
+	position: absolute;
+	top: 93px;
+	left: 80px;
+}
+.hi_2{
+	background-color: #fff;
+	position: absolute;
+	top: 321px;
+	left: 80px;
+}
+.hi_3{
+	background-color: #fff;
+	position: absolute;
+	top: 427px;
+	left: 80px;
+}

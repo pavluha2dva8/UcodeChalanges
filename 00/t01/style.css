@@ -1,0 +1,52 @@
+body{
+	width: 1150px;
+}
+img{
+	height: 120px;
+	border-radius: 25px;
+	padding: 10px 0px 10px 0px;
+}
+
+table{
+	text-align: center;
+	border-collapse: collapse;
+}
+
+td{
+	padding: 0px 10px 0px 10px;
+	border: 2px solid #dddddd;
+}
+
+
+.row_1{
+	background-color: #000;
+	color: white;
+}
+
+.row_2{
+	background-color: #cc944d;
+}
+
+.row_3{
+	background-color: #387d21;
+}
+
+.row_4{
+	background-color: #22568e;
+}
+
+.row_5{
+	background-color: #fffd56;
+}
+
+.row_6{
+	background-color: #b13835;
+}
+
+.row_7{
+	background-color: #7e77b2;
+}
+
+.link{
+	padding: 10px 0px 10px 0px;
+}

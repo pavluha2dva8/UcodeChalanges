@@ -1,0 +1,6 @@
+.japan{
+	width: 300px;
+	height: 200px;
+	border: 2px solid #dddddd;
+	background:-webkit-radial-gradient(circle, #bc002d 60px, #fff 60px);
+}
