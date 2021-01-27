@@ -1,0 +1,43 @@
+.wrapper{
+	background: radial-gradient(circle, #46465c, #16161c);
+	width: 600px;
+}
+.content__circle{
+	width: 100px;
+	height: 100px;
+	background: green;
+	border-radius: 50%;
+	position: relative;
+	left: 0;
+
+/*	animation-name: white-circle;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;*/
+animation: green-circle 2s linear infinite alternate 0s forwards/*, red-circle 2s linear infinite alternate 0s forwards*/;
+}
+
+.content:hover .content__circle{
+	animation: green-circle 2s linear infinite alternate 0s forwards, red-circle 4s linear infinite alternate 0s forwards;
+}
+
+@keyframes green-circle{
+	0%{
+		left: 0;
+	}
+	100%{
+		left: 500px;
+	}
+}
+@keyframes red-circle{
+	0%{
+		background-color: green;
+	}
+	50%{
+		background-color: red;
+	}
+	100%{
+		background-color: green;
+	}
+}
